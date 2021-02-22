@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+  <identifier>Hen13</identifier>
+  <version>1.0.0.0</version>
+  <dependencies />
+  <incompatibleWith />
+  <loadBefore />
+  <loadAfter />
+  <manifestUri>https://raw.githubusercontent.com/emipa606/Hen13/master/About/Manifest.xml</manifestUri>
+  <downloadUri>https://github.com/emipa606/Hen13/releases</downloadUri>
+</Manifest>
+

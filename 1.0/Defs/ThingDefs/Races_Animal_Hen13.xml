@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- <ThingDef ParentName="AnimalThingBase">   -->
+  <ThingDef Class="HenThirteen.ThingDef_HenThirteen" ParentName="AnimalThingBase">
+    <defName>HenThirteen</defName>
+    <label>hen thirteen</label>
+    <description>Hen13 is not the chicken we deserve, but is the chicken we need</description>
+    <ZerkFactor>0.5</ZerkFactor>
+    <statBases>
+      <MoveSpeed>4.7</MoveSpeed>
+      <PainShockThreshold>0.99</PainShockThreshold>
+      <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.45</ArmorRating_Sharp>
+      <MarketValue>50</MarketValue>
+      <LeatherAmount>0</LeatherAmount>
+      <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+    </statBases>
+    <tools>
+      <li>
+        <label>claws</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>50</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>beak</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>75</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>1</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <!--=========== <comps>
+      <li Class="CompProperties_EggLayer">
+        <eggUnfertilizedDef>EggChickenUnfertilized</eggUnfertilizedDef>
+        <eggFertilizedDef>EggChickenFertilized</eggFertilizedDef>
+        <eggFertilizationCountMax>0</eggFertilizationCountMax>
+        <eggLayIntervalDays>2</eggLayIntervalDays>
+        <eggCountRange>0</eggCountRange>
+      </li>
+    </comps>
+-->
+    <race>
+      <body>Bird</body>
+      <petness>1</petness>
+      <baseHungerRate>0.35</baseHungerRate>
+      <baseBodySize>0.35</baseBodySize>
+      <baseHealthScale>3.0</baseHealthScale>
+      <foodType>VegetarianRoughAnimal</foodType>
+      <hasGenders>false</hasGenders>
+      <trainability>Intermediate</trainability>
+      <wildness>0</wildness>
+      <manhunterOnTameFailChance>0.01</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.99</manhunterOnDamageChance>
+      <lifeExpectancy>8</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.0</minAge>
+          <soundWounded>Pawn_Chicken_Wounded</soundWounded>
+          <soundDeath>Pawn_Chicken_Death</soundDeath>
+          <soundCall>Pawn_Chicken_Call</soundCall>
+          <soundAngry>Pawn_Chicken_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>AnimalPet</li>
+      <li>AnimalExotic</li>
+    </tradeTags>
+    <thingClass>HenThirteen.HenThirteen</thingClass>
+  </ThingDef>
+  <PawnKindDef ParentName="AnimalKindBase">
+    <!-- <PawnKindDef Class="HenThirteen.PawnKindDef_HenThirteen" ParentName="AnimalThingBase"> -->
+    <defName>HenThirteen</defName>
+    <label>hen thirteen</label>
+    <race>HenThirteen</race>
+    <combatPower>100</combatPower>
+    <isFighter>true</isFighter>
+    <ecoSystemWeight>0.30</ecoSystemWeight>
+    <wildGroupSize>
+      <min>1</min>
+      <max>1</max>
+    </wildGroupSize>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Animals/Hen13</texPath>
+          <drawSize>1.25</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.4, 0.3)</volume>
+            <offset>(0,0,-0.05)</offset>
+          </shadowData>
+          <color>(200,150,85)</color>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Animals/Dessicated_Hen13</texPath>
+          <drawSize>1.25</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  <!-- ============================================================ -->
+</Defs>
