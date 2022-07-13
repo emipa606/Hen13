@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Hen 13 (Continued)</name>
   <packageId>Mlie.Hen13</packageId>
@@ -21,22 +21,26 @@
   <loadAfter>
     <li>brrainz.harmony</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of big-daddios mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1706903258
 
 - Used a Harmony-patch instead to avoid overwriting vanilla code
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
     [tr]
         [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
         [td][url=https://github.com/emipa606/Hen13][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
     [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+    [/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 A simple mod that adds a ferocious friendly chicken to the game.   
 
 Based on the true events of heroic Hen 13. (https://www.reddit.com/r/RimWorld/comments/b973q3/well_this_happened_good_job_hen_13/)
@@ -44,13 +48,13 @@ Based on the true events of heroic Hen 13. (https://www.reddit.com/r/RimWorld/co
 
 
 // Notes
-I&apos;ve been wanting to get into modding to sharpen my ancient coding skills and this was just the test case on how to navigate Rimworlds xml defs.
+I've been wanting to get into modding to sharpen my ancient coding skills and this was just the test case on how to navigate Rimworlds xml defs.
 
 Should not conflict with anything.  CE throws harmless errors if Hen 13 dies but it seems CE does that with all custom animals.
 
 If you are curious, Hen 13 is as the legend goes going to probably beat a rhino or most other large animals mono a mono in a fight.  Will be squishy against guns especially with CE.
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
