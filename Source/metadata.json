@@ -2,5 +2,15 @@
   "Continued": true,
   "CanAdd": "0",
   "CanRemove": "2",
-  "PreviewVersion": "1.5"
+  "PreviewVersion": "1.6",
+  "LastXmlCleaning": "2025-07-03T20:08:07.1656014+02:00",
+  "SocialImageSet": true,
+  "Patches": false,
+  "Defs": true,
+  "Assemblies": true,
+  "LinesOfCode": 3798.0,
+  "LinesOfXML": 4473.0,
+  "SearchTags": [
+    "hero chicken"
+  ]
 }

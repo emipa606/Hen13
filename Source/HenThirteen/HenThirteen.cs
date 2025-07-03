@@ -16,7 +16,6 @@ public class HenThirteen : Pawn
 
         if (Faction != Faction.OfPlayer)
         {
-            //Log.Message("not a player chicken 13");
             return;
         }
 
@@ -36,12 +35,9 @@ public class HenThirteen : Pawn
             }
         }
 
-        var PercentHealth = Math.Min(DamageAbsorbed / (HealthScale * 25.0f), 0.99f);
+        var percentHealth = Math.Min(DamageAbsorbed / (HealthScale * 25.0f), 0.99f);
         var rand = Rand.Value;
-        //Log.Message("Not yet absorbed", true);
-        //Log.Message(PercentHealth + " " + DamageAbsorbed + " " + HealthScale + " " + rand, true);
-        absorbed = rand <= PercentHealth * Def.ZerkFactor;
-        //Log.Message("2nd chance absord result " + absorbed + "    " + (PercentHealth * Def.ZerkFactor));
+        absorbed = rand <= percentHealth * Def.ZerkFactor;
 
         if (absorbed)
         {
